@@ -1,0 +1,9 @@
+
+fun main() {
+	val first = 1
+	val last = 500
+    var num =Array(500){((first..last).random())}
+    num.sort(0,10)
+	for (i in 0..9) 
+    println(" "+num[i])
+}
